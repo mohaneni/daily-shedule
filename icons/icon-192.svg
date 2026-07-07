@@ -1,0 +1,38 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192" width="192" height="192">
+  <defs>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d9488" />
+      <stop offset="100%" stop-color="#047857" />
+    </linearGradient>
+    <linearGradient id="check-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#34d399" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="192" height="192" rx="42" fill="url(#bg-grad)" />
+  
+  <!-- Calendar Grid Shadow / Silhouette -->
+  <rect x="46" y="56" width="100" height="90" rx="16" fill="#000" opacity="0.15" />
+  
+  <!-- Calendar Body -->
+  <rect x="46" y="52" width="100" height="90" rx="16" fill="#ffffff" />
+  
+  <!-- Calendar Header Red/Teal Strip -->
+  <path d="M46 68 V68 C46 60 52 52 60 52 H132 C140 52 146 60 146 68 V76 H46 Z" fill="#14b8a6" />
+  
+  <!-- Ring holes -->
+  <circle cx="70" cy="52" r="5" fill="#047857" />
+  <circle cx="122" cy="52" r="5" fill="#047857" />
+  
+  <!-- Binder Rings -->
+  <path d="M70 42 C70 42 70 54 70 54" stroke="#e2e8f0" stroke-width="4" stroke-linecap="round" />
+  <path d="M122 42 C122 42 122 54 122 54" stroke="#e2e8f0" stroke-width="4" stroke-linecap="round" />
+  
+  <!-- Checkmark/Flow inside calendar -->
+  <path d="M68 102 L84 118 L124 78" fill="none" stroke="url(#check-grad)" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" />
+  
+  <!-- Little decorative clock or star -->
+  <circle cx="122" cy="118" r="10" fill="#f59e0b" />
+  <path d="M122 112 V118 H127" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" />
+</svg>
